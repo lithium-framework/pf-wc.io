@@ -1,0 +1,15 @@
+.sample-bloc{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 20px;
+  border: 1px solid #ececec;
+}
+
+.sample-bloc.row{
+  flex-direction: row;
+}
+
+.sample-bloc.column{
+  flex-direction: column;
+}

@@ -62,6 +62,28 @@ const config: Config = {
     ],
   ],
 
+  stylesheets: [
+    {
+      href: '/css/pf-base.css',
+      type: 'text/css',
+    },
+    {
+      href: '/css/sample-bloc.css',
+      type: 'text/css',
+    },
+    {
+      href: '/css/sample-table.css',
+      type: 'text/css',
+    },
+  ],
+
+  scripts: [
+    {
+      src: '/js/unofficial-pf-v5-wc.js',
+      async: false,
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',

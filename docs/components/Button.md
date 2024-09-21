@@ -52,3 +52,135 @@ Voici un exemple d’utilisation avec différentes configurations d’attributs 
 ## Extension et Personnalisation
 
 Vous pouvez facilement étendre ce composant en ajoutant de nouvelles propriétés ou en modifiant les classes CSS appliquées. Vous pouvez également ajouter des écouteurs d’événements pour gérer les interactions utilisateur au sein du bouton.
+
+## Exemples
+
+<div class = "sample-table" >
+
+  <table>
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Property</th>
+        <th>Render</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Variant</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          ```html
+          <pf-button>Primary</pf-button>
+          ```
+        </td>
+        <td>Primitive</td>
+        <td><pf-button>Primary</pf-button></td>
+      </tr>
+      <tr>
+        <td>
+          ```html
+          <pf-button variant = "secondary" > 
+            Secondary
+          </pf-button>
+          ```
+        </td>
+        <td>Secondary</td>
+        <td><pf-button variant = "secondary" >Secondary</pf-button></td>
+      </tr>
+      <tr>
+        <td>
+          ```html
+          <pf-button variant = "tertiary" > 
+            Tertiary
+          </pf-button>
+          ```
+        </td>
+        <td>Tertiary</td>
+        <td><pf-button variant = "tertiary" >Tertiary</pf-button></td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Diabed</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          ```html
+          <pf-button disabled> 
+            Disabled
+          </pf-button>
+          ```
+        </td>
+        <td>Disabled</td>
+        <td><pf-button disabled>Disabled</pf-button></td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Kind</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          ```html
+          <pf-button kind = "warning"> 
+            Warning
+          </pf-button>
+          ```
+        </td>
+        <td>Warning</td>
+        <td><pf-button kind = "warning">Warning</pf-button></td>
+      </tr>
+      <tr>
+        <td>
+          ```html
+          <pf-button kind = "danger"> 
+            Danger
+          </pf-button>
+          ```
+        </td>
+        <td>Warning</td>
+        <td><pf-button kind = "danger">Danger</pf-button></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class = "sample-bloc">
+
+  <pf-action-list>
+    <pf-action-list-item>
+      <pf-button>Primary</pf-button>
+      <pf-button variant = "secondary" >Secondary</pf-button>
+      <pf-button variant = "tertiary" >Tertiary</pf-button>
+    </pf-action-list-item>
+    <pf-action-list-item>
+      <pf-button disabled>Disabled</pf-button>
+    </pf-action-list-item>
+    <pf-action-list-item>
+      <pf-button kind = "warning">Warning</pf-button>
+      <pf-button kind = "warning" variant = "secondary">Warning Secondary</pf-button>
+      <pf-button kind = "warning" variant = "tertiary">Warning Tertiary</pf-button>
+    </pf-action-list-item>
+    <pf-action-list-item>
+      <pf-button kind = "danger">Danger</pf-button>
+      <pf-button kind = "danger" variant = "secondary">Danger Secondary</pf-button>
+      <pf-button kind = "danger" variant = "tertiary">Danger Tertiary</pf-button>
+    </pf-action-list-item>
+  </pf-action-list>
+
+</div>
