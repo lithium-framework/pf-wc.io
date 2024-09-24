@@ -4,6 +4,7 @@
   flex-direction: row;
   padding: 20px;
   border: 1px solid #ececec;
+  margin: 10px 0 !important;
 }
 
 .sample-table table{

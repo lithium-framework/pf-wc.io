@@ -68,6 +68,10 @@ const config: Config = {
       type: 'text/css',
     },
     {
+      href: '/css/pf-icons.css',
+      type: 'text/css',
+    },
+    {
       href: '/css/sample-bloc.css',
       type: 'text/css',
     },
@@ -80,6 +84,10 @@ const config: Config = {
   scripts: [
     {
       src: '/js/unofficial-pf-v5-wc.js',
+      async: false,
+    },
+    {
+      src: '/js/unofficial-pf-v5-wc-icons.js',
       async: false,
     },
   ],

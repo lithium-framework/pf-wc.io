@@ -53,7 +53,7 @@ Voici un exemple d’utilisation avec différentes configurations d’attributs 
 
 Vous pouvez facilement étendre ce composant en ajoutant de nouvelles propriétés ou en modifiant les classes CSS appliquées. Vous pouvez également ajouter des écouteurs d’événements pour gérer les interactions utilisateur au sein du bouton.
 
-## Exemples
+## Variant examples
 
 <div class = "sample-table" >
 

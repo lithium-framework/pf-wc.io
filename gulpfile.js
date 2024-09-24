@@ -60,8 +60,21 @@ function copyUnofficialPfBundle() {
     .pipe(gulp.dest(jsTargetPath));  // Copier vers static/js
 }
 
+function copyUnofficialPfIconsBundle() {
+  // Résoudre le chemin réel de unofficial-pf-v5-wc (qui pourrait être un symlink)
+  const realUnofficialPfIconsPath = resolveSymlink(path.resolve(__dirname, 'node_modules/unofficial-pf-v5-wc-icons'));
+
+  // Lire package.json pour trouver le champ 'main' (bundle.js)
+  const packageJson = JSON.parse(fs.readFileSync(path.join(realUnofficialPfIconsPath, 'package.json')));
+  const bundleJsPath = path.resolve(realUnofficialPfIconsPath, packageJson.main);
+
+  return gulp.src(bundleJsPath)
+    .pipe(rename('unofficial-pf-v5-wc-icons.js'))  // Renommer bundle.js en unofficial-pf-v5-wc.js
+    .pipe(gulp.dest(jsTargetPath));  // Copier vers static/js
+}
+
 // Tâche principale : vérifier les dépendances puis copier les fichiers
 exports.default = gulp.series(
   checkDependencies,   // D'abord vérifier si les dépendances sont présentes
-  gulp.parallel(copyPfCoreCss, copyUnofficialPfBundle)  // Ensuite copier les fichiers en parallèle
+  gulp.parallel(copyPfCoreCss, copyUnofficialPfBundle , copyUnofficialPfIconsBundle)  // Ensuite copier les fichiers en parallèle
 );
