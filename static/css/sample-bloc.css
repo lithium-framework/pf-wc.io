@@ -6,6 +6,7 @@
   border: 1px solid #ececec;
   margin: 10px 0 !important;
   gap: 8px;
+  max-height: 350px;
 }
 
 .sample-bloc.row{
