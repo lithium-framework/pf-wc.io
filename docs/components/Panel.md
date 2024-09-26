@@ -1,4 +1,4 @@
-# Checkbox
+# Panel
 
 ## Examples
 
@@ -6,7 +6,7 @@
 
 <div class="sample-bloc">
 
-  <pf-checkbox>Basic Checkbox</pf-checkbox>
+  <pf-panel></pf-panel>
 
 </div>
 
@@ -24,12 +24,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox>Basic Checkbox</pf-checkbox>
+            <pf-panel></pf-panel>
           ```
         </td>
         <td>None</td>
         <td>
-          <pf-checkbox>Basic Checkbox</pf-checkbox>
+          <pf-panel></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -37,11 +37,11 @@
 
 </div>
 
-### Required
+### Header
 
 <div class="sample-bloc">
 
-  <pf-checkbox required>Required Checkbox</pf-checkbox>
+  <pf-panel header></pf-panel>
 
 </div>
 
@@ -59,14 +59,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox required>
-            Required Checkbox
-            </pf-checkbox>
+            <pf-panel header></pf-panel>
           ```
         </td>
-        <td>Required</td>
+        <td>header</td>
         <td>
-          <pf-checkbox required>Required checkbox</pf-checkbox>
+          <pf-panel header></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -74,11 +72,11 @@
 
 </div>
 
-### Checked
+### Footer
 
 <div class="sample-bloc">
 
-  <pf-checkbox checked>Checked Checkbox</pf-checkbox>
+  <pf-panel footer></pf-panel>
 
 </div>
 
@@ -96,14 +94,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox checked>
-            Checked Checkbox
-            </pf-checkbox>
+            <pf-panel footer></pf-panel>
           ```
         </td>
-        <td>checked</td>
+        <td>footer</td>
         <td>
-          <pf-checkbox checked>Checked checkbox</pf-checkbox>
+          <pf-panel footer></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -111,11 +107,11 @@
 
 </div>
 
-### Reversed
+### No body
 
 <div class="sample-bloc">
 
-  <pf-checkbox reverse>Reversed Checkbox</pf-checkbox>
+  <pf-panel no-body></pf-panel>
 
 </div>
 
@@ -133,14 +129,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox reverse>
-            Reversed Checkbox
-            </pf-checkbox>
+            <pf-panel no-body></pf-panel>
           ```
         </td>
-        <td>reverse</td>
+        <td>no-body</td>
         <td>
-          <pf-checkbox reverse>Reversed Checkbox</pf-checkbox>
+          <pf-panel no-body></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -148,11 +142,11 @@
 
 </div>
 
-### Disabled
+### Raised
 
 <div class="sample-bloc">
 
-  <pf-checkbox disabled>Disabled Checkbox</pf-checkbox>
+  <pf-panel raised></pf-panel>
 
 </div>
 
@@ -170,14 +164,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox disabled>
-            Disabled Checkbox
-            </pf-checkbox>
+            <pf-panel raised></pf-panel>
           ```
         </td>
-        <td>reverse</td>
+        <td>raised</td>
         <td>
-          <pf-checkbox disabled>Disabled Checkbox</pf-checkbox>
+          <pf-panel raised></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -185,11 +177,11 @@
 
 </div>
 
-### With description
+### Bordered
 
 <div class="sample-bloc">
 
-  <pf-checkbox description>Checkbox with description</pf-checkbox>
+  <pf-panel bordered></pf-panel>
 
 </div>
 
@@ -207,19 +199,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox description>
-            Checkbox with description
-            </pf-checkbox>
+            <pf-panel bordered></pf-panel>
           ```
         </td>
-        <td>description</td>
+        <td>bordered</td>
         <td>
-          <pf-checkbox description>
-            Checkbox with description
-            <slot name="description">
-              <p>Little description here</p>
-            </slot>
-          </pf-checkbox>
+          <pf-panel bordered></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -227,11 +212,11 @@
 
 </div>
 
-### With body
+### Scrollable
 
 <div class="sample-bloc">
 
-  <pf-checkbox body>Checkbox with body</pf-checkbox>
+  <pf-panel scrollable></pf-panel>
 
 </div>
 
@@ -249,19 +234,12 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox body>
-            Checkbox with body
-            </pf-checkbox>
+            <pf-panel scrollable></pf-panel>
           ```
         </td>
-        <td>body</td>
+        <td>scrollable</td>
         <td>
-          <pf-checkbox description>
-            Checkbox with body
-            <slot name="body">
-              <p>Little body<pf-button variant = "primary">here</pf-button></p>
-            </slot>
-          </pf-checkbox>
+          <pf-panel scrollable></pf-panel>
         </td>
       </tr>
     </tbody>
@@ -269,11 +247,11 @@
 
 </div>
 
-### With description and body
+### Scrollable header and footer
 
 <div class="sample-bloc">
 
-  <pf-checkbox body>Checkbox with body & description</pf-checkbox>
+  <pf-panel header footer scrollable></pf-panel>
 
 </div>
 
@@ -291,25 +269,17 @@
       <tr>
         <td>
           ```html
-            <pf-checkbox description body>
-            Checkbox with body & description
-            </pf-checkbox>
+            <pf-panel header footer scrollable></pf-panel>
           ```
         </td>
-        <td>body, description</td>
+        <td>scrollable, header, footer</td>
         <td>
-          <pf-checkbox description>
-            Checkbox with body & description
-            <slot name="description">
-              <p>description</p>
-            </slot>
-            <slot name="body">
-              <p>Little body<pf-button variant = "primary">here</pf-button></p>
-            </slot>
-          </pf-checkbox>
+          <pf-panel header footer scrollable></pf-panel>
         </td>
       </tr>
     </tbody>
   </table>
 
 </div>
+
+ 
