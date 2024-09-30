@@ -75,6 +75,10 @@ const config: Config = {
       href: '/css/sample-table.css',
       type: 'text/css',
     },
+    {
+      href: '/css/sample-live-view.css',
+      type: 'text/css',
+    }
   ],
 
   scripts: [
@@ -158,6 +162,8 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  themes: ['@docusaurus/theme-live-codeblock'],
 };
 
 export default config;
