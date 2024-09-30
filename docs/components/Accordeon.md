@@ -1,21 +1,40 @@
 # Accordeon
 
-## Examples
+```html live
 
-### Fluid
-
-<div class="sample-bloc">
-
-  <pf-accordeon>
+<pf-accordeon>
+  <pf-accordeon-item>
     <span slot = "label" >Item 1</span>
     <div>
       <h3>Contenu primaire</h3>
       <p>Lorem ipsum</p>
     </div>
+  </pf-accordeon-item>
+  <pf-accordeon-item>
+    <span slot = "label" >Item 2</span>
     <div>
-      <h3>Contenu secondaire</h3>
+      <h3>Contenu primaire</h3>
       <p>Lorem ipsum</p>
     </div>
+  </pf-accordeon-item>
+</pf-accordeon>
+
+```
+
+## Examples
+
+### Fluid
+
+<div class="sample-bloc full-width">
+
+  <pf-accordeon>
+    <pf-accordeon-item>
+      <span slot = "label" >Item 1</span>
+      <div>
+        <h3>Contenu primaire</h3>
+        <p>Lorem ipsum</p>
+      </div>
+    </pf-accordeon-item>
   </pf-accordeon>
 
 </div>
@@ -34,31 +53,25 @@
       <tr>
         <td>
           ```html
-            <pf-accordeon>
+            <pf-accordeon-item>
               <span slot = "label" >Item 1</span>
               <div>
                 <h3>Contenu primaire</h3>
                 <p>Lorem ipsum</p>
               </div>
-              <div>
-                <h3>Contenu secondaire</h3>
-                <p>Lorem ipsum</p>
-              </div>
-            </pf-accordeon>
+            </pf-accordeon-item>
           ```
         </td>
         <td>description</td>
         <td>
             <pf-accordeon>
-              <span slot = "label" >Item 1</span>
-              <div>
-                <h3>Contenu primaire</h3>
-                <p>Lorem ipsum</p>
-              </div>
-              <div>
-                <h3>Contenu secondaire</h3>
-                <p>Lorem ipsum</p>
-              </div>
+              <pf-accordeon-item>
+                <span slot = "label" >Item 1</span>
+                <div>
+                  <h3>Contenu primaire</h3>
+                  <p>Lorem ipsum</p>
+                </div>
+              </pf-accordeon-item>
             </pf-accordeon>
         </td>
       </tr>
