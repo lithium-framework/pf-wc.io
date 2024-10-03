@@ -53,6 +53,14 @@ Voici un exemple d’utilisation avec différentes configurations d’attributs 
 
 Vous pouvez facilement étendre ce composant en ajoutant de nouvelles propriétés ou en modifiant les classes CSS appliquées. Vous pouvez également ajouter des écouteurs d’événements pour gérer les interactions utilisateur au sein du bouton.
 
+## Integration
+
+```html live
+<pf-action-list>
+  <pf-button>Button</pf-button>
+</pf-action-list>
+```
+
 ## Variant examples
 
 <div class = "sample-table" >
@@ -85,24 +93,24 @@ Vous pouvez facilement étendre ce composant en ajoutant de nouvelles propriét�
       <tr>
         <td>
           ```html
-          <pf-button variant = "secondary" > 
+          <pf-button secondary > 
             Secondary
           </pf-button>
           ```
         </td>
         <td>Secondary</td>
-        <td><pf-button variant = "secondary" >Secondary</pf-button></td>
+        <td><pf-button secondary >Secondary</pf-button></td>
       </tr>
       <tr>
         <td>
           ```html
-          <pf-button variant = "tertiary" > 
+          <pf-button tertiary > 
             Tertiary
           </pf-button>
           ```
         </td>
         <td>Tertiary</td>
-        <td><pf-button variant = "tertiary" >Tertiary</pf-button></td>
+        <td><pf-button tertiary >Tertiary</pf-button></td>
       </tr>
     </tbody>
     <thead>
@@ -136,51 +144,26 @@ Vous pouvez facilement étendre ce composant en ajoutant de nouvelles propriét�
       <tr>
         <td>
           ```html
-          <pf-button kind = "warning"> 
+          <pf-button warning> 
             Warning
           </pf-button>
           ```
         </td>
         <td>Warning</td>
-        <td><pf-button kind = "warning">Warning</pf-button></td>
+        <td><pf-button warning>Warning</pf-button></td>
       </tr>
       <tr>
         <td>
           ```html
-          <pf-button kind = "danger"> 
+          <pf-button danger> 
             Danger
           </pf-button>
           ```
         </td>
         <td>Warning</td>
-        <td><pf-button kind = "danger">Danger</pf-button></td>
+        <td><pf-button danger>Danger</pf-button></td>
       </tr>
     </tbody>
   </table>
-
-</div>
-
-<div class = "sample-bloc">
-
-  <pf-action-list>
-    <pf-action-list-item>
-      <pf-button>Primary</pf-button>
-      <pf-button variant = "secondary" >Secondary</pf-button>
-      <pf-button variant = "tertiary" >Tertiary</pf-button>
-    </pf-action-list-item>
-    <pf-action-list-item>
-      <pf-button disabled>Disabled</pf-button>
-    </pf-action-list-item>
-    <pf-action-list-item>
-      <pf-button kind = "warning">Warning</pf-button>
-      <pf-button kind = "warning" variant = "secondary">Warning Secondary</pf-button>
-      <pf-button kind = "warning" variant = "tertiary">Warning Tertiary</pf-button>
-    </pf-action-list-item>
-    <pf-action-list-item>
-      <pf-button kind = "danger">Danger</pf-button>
-      <pf-button kind = "danger" variant = "secondary">Danger Secondary</pf-button>
-      <pf-button kind = "danger" variant = "tertiary">Danger Tertiary</pf-button>
-    </pf-action-list-item>
-  </pf-action-list>
 
 </div>

@@ -79,10 +79,6 @@ const config: Config = {
       href: '/css/sample-table.css',
       type: 'text/css',
     },
-    {
-      href: '/css/sample-live-view.css',
-      type: 'text/css',
-    }
   ],
 
   scripts: [
@@ -100,10 +96,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://pf4.patternfly.org/images/logo__pf--reverse-on-md.92c3cd3e0181da4c832c5dd4de8513d6.svg',
       },
       items: [
         {
@@ -172,6 +167,7 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   themes: ['@docusaurus/theme-live-codeblock'],
+
 };
 
 export default config;
