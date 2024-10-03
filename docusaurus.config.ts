@@ -96,10 +96,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://pf4.patternfly.org/images/logo__pf--reverse-on-md.92c3cd3e0181da4c832c5dd4de8513d6.svg',
       },
       items: [
         {
@@ -166,6 +165,9 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  themes: ['@docusaurus/theme-live-codeblock'],
+
 };
 
 export default config;
