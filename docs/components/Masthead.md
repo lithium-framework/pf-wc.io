@@ -6,7 +6,12 @@
 
 <div class="sample-bloc full-width">
 
-  <pf-masthead></pf-masthead>
+  <pf-masthead>
+    <slot slot="toggle-icon">
+      <pf-icons-cog></pf-icons-cog>
+    </slot>
+    <slot slot="brand">Branding</slot>
+  </pf-masthead>
 
 </div>
 
@@ -24,12 +29,22 @@
       <tr>
         <td>
           ```html
-            <pf-masthead></pf-masthead>
+            <pf-masthead>
+              <slot slot="toggle-icon">
+                <pf-icons-cog></pf-icons-cog>
+              </slot>
+              <slot slot="brand">Trolol</slot>
+            </pf-masthead>
           ```
         </td>
         <td>None</td>
         <td>
-          <pf-masthead></pf-masthead>
+          <pf-masthead>
+            <slot slot="toggle-icon">
+              <pf-icons-cog></pf-icons-cog>
+            </slot>
+            <slot slot="brand">Trolol</slot>
+          </pf-masthead>
         </td>
       </tr>
     </tbody>
@@ -41,15 +56,18 @@
 
 <div class="sample-bloc full-width">
 
-  <pf-accordeon>
-    <pf-accordeon-item>
-      <span slot = "label" >Item 1</span>
-      <div>
-        <h3>Contenu primaire</h3>
-        <p>Lorem ipsum</p>
-      </div>
-    </pf-accordeon-item>
-  </pf-accordeon>
+  <pf-masthead mixed-content>
+    <slot slot="toggle-icon">
+      <pf-icons-add-circle-o></pf-icons-add-circle-o>
+    </slot>
+    <slot slot="brand">Branding</slot>
+    <slot>
+      <pf-button primary>Button 1</pf-button>
+      <pf-button primary>Button 2</pf-button>
+      <pf-button primary>Button 3</pf-button>
+      <pf-button primary>Button 4</pf-button>
+    </slot>
+  </pf-masthead>
 
 </div>
 
@@ -67,23 +85,102 @@
       <tr>
         <td>
           ```html
-            <pf-accordeon-item>
-              <span slot = "label" >Item 1</span>
-              <div>
-                <h3>Contenu primaire</h3>
-                <p>Lorem ipsum</p>
-              </div>
-            </pf-accordeon-item>
+            <pf-masthead mixed-content>
+              <slot slot="toggle-icon">
+                <pf-icons-add-circle-o></pf-icons-add-circle-o>
+              </slot>
+              <slot slot="brand">Branding</slot>
+              <slot>
+                <pf-button primary>Button 1</pf-button>
+                <pf-button primary>Button 2</pf-button>
+                <pf-button primary>Button 3</pf-button>
+                <pf-button primary>Button 4</pf-button>
+              </slot>
+            </pf-masthead>
           ```
         </td>
-        <td>description</td>
+        <td>mixed-content</td>
         <td>
           <pf-masthead mixed-content>
-            <div name='content'>
-              <h3>Content</h3>
-              <pf-button primary>Button 1</pf-button>
-            </div>
-          </pf-masthead>
+              <slot slot="toggle-icon">
+                <pf-icons-add-circle-o></pf-icons-add-circle-o>
+              </slot>
+              <slot slot="brand">Branding</slot>
+              <slot>
+                <pf-button primary>Button 1</pf-button>
+                <pf-button primary>Button 2</pf-button>
+                <pf-button primary>Button 3</pf-button>
+                <pf-button primary>Button 4</pf-button>
+              </slot>
+            </pf-masthead>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+### Display inline
+
+<div class="sample-bloc full-width">
+
+  <pf-masthead display-inline>
+    <slot slot="toggle-icon">
+      <pf-icons-border-style></pf-icons-border-style>
+    </slot>
+    <slot slot="brand">Branding</slot>
+    <slot>
+      <pf-button primary>Button 1</pf-button>
+      <pf-button primary>Button 2</pf-button>
+      <pf-button primary>Button 3</pf-button>
+      <pf-button primary>Button 4</pf-button>
+    </slot>
+  </pf-masthead>
+
+</div>
+
+<div class = "sample-table full-width">
+
+  <table>
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Property</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          ```html
+            <pf-masthead display-inline>
+              <slot slot="toggle-icon">
+                <pf-icons-border-style></pf-icons-border-style>
+              </slot>
+              <slot slot="brand">Branding</slot>
+              <slot>
+                <pf-button primary>Button 1</pf-button>
+                <pf-button primary>Button 2</pf-button>
+                <pf-button primary>Button 3</pf-button>
+                <pf-button primary>Button 4</pf-button>
+              </slot>
+            </pf-masthead>
+          ```
+        </td>
+        <td>display-inline</td>
+        <td>
+          <pf-masthead display-inline>
+              <slot slot="toggle-icon">
+                <pf-icons-border-style></pf-icons-border-style>
+              </slot>
+              <slot slot="brand">Branding</slot>
+              <slot>
+                <pf-button primary>Button 1</pf-button>
+                <pf-button primary>Button 2</pf-button>
+                <pf-button primary>Button 3</pf-button>
+                <pf-button primary>Button 4</pf-button>
+              </slot>
+            </pf-masthead>
         </td>
       </tr>
     </tbody>
