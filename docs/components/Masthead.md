@@ -63,9 +63,8 @@
     <slot slot="brand">Branding</slot>
     <slot>
       <pf-button primary>Button 1</pf-button>
-      <pf-button primary>Button 2</pf-button>
-      <pf-button primary>Button 3</pf-button>
-      <pf-button primary>Button 4</pf-button>
+      <pf-button secondary>Button 2</pf-button>
+      <pf-button tertiary>Button 3</pf-button>
     </slot>
   </pf-masthead>
 
@@ -92,9 +91,8 @@
               <slot slot="brand">Branding</slot>
               <slot>
                 <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
+                <pf-button secondary>Button 2</pf-button>
+                <pf-button tertiary>Button 3</pf-button>
               </slot>
             </pf-masthead>
           ```
@@ -108,9 +106,8 @@
               <slot slot="brand">Branding</slot>
               <slot>
                 <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
+                <pf-button secondary>Button 2</pf-button>
+                <pf-button tertiary>Button 3</pf-button>
               </slot>
             </pf-masthead>
         </td>
@@ -129,12 +126,6 @@
       <pf-icons-border-style></pf-icons-border-style>
     </slot>
     <slot slot="brand">Branding</slot>
-    <slot>
-      <pf-button primary>Button 1</pf-button>
-      <pf-button primary>Button 2</pf-button>
-      <pf-button primary>Button 3</pf-button>
-      <pf-button primary>Button 4</pf-button>
-    </slot>
   </pf-masthead>
 
 </div>
@@ -158,12 +149,6 @@
                 <pf-icons-border-style></pf-icons-border-style>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
           ```
         </td>
@@ -174,12 +159,6 @@
                 <pf-icons-border-style></pf-icons-border-style>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
         </td>
       </tr>
@@ -197,12 +176,6 @@
       <pf-icons-burn></pf-icons-burn>
     </slot>
     <slot slot="brand">Branding</slot>
-    <slot>
-      <pf-button primary>Button 1</pf-button>
-      <pf-button primary>Button 2</pf-button>
-      <pf-button primary>Button 3</pf-button>
-      <pf-button primary>Button 4</pf-button>
-    </slot>
   </pf-masthead>
 
 </div>
@@ -226,12 +199,6 @@
                 <pf-icons-burn></pf-icons-burn>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
           ```
         </td>
@@ -242,12 +209,6 @@
                 <pf-icons-burn></pf-icons-burn>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
         </td>
       </tr>
@@ -265,12 +226,6 @@
       <pf-icons-burn></pf-icons-burn>
     </slot>
     <slot slot="brand">Branding</slot>
-    <slot>
-      <pf-button primary>Button 1</pf-button>
-      <pf-button primary>Button 2</pf-button>
-      <pf-button primary>Button 3</pf-button>
-      <pf-button primary>Button 4</pf-button>
-    </slot>
   </pf-masthead>
 
 </div>
@@ -294,12 +249,6 @@
                 <pf-icons-burn></pf-icons-burn>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
           ```
         </td>
@@ -310,12 +259,6 @@
               <pf-icons-burn></pf-icons-burn>
             </slot>
             <slot slot="brand">Branding</slot>
-            <slot>
-              <pf-button primary>Button 1</pf-button>
-              <pf-button primary>Button 2</pf-button>
-              <pf-button primary>Button 3</pf-button>
-              <pf-button primary>Button 4</pf-button>
-            </slot>
           </pf-masthead>
         </td>
       </tr>
@@ -333,12 +276,6 @@
       <pf-icons-burn></pf-icons-burn>
     </slot>
     <slot slot="brand">Branding</slot>
-    <slot>
-      <pf-button primary>Button 1</pf-button>
-      <pf-button primary>Button 2</pf-button>
-      <pf-button primary>Button 3</pf-button>
-      <pf-button primary>Button 4</pf-button>
-    </slot>
   </pf-masthead>
 
 </div>
@@ -362,12 +299,6 @@
                 <pf-icons-burn></pf-icons-burn>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
           ```
         </td>
@@ -378,12 +309,6 @@
               <pf-icons-burn></pf-icons-burn>
             </slot>
             <slot slot="brand">Branding</slot>
-            <slot>
-              <pf-button primary>Button 1</pf-button>
-              <pf-button primary>Button 2</pf-button>
-              <pf-button primary>Button 3</pf-button>
-              <pf-button primary>Button 4</pf-button>
-            </slot>
           </pf-masthead>
         </td>
       </tr>
@@ -401,12 +326,6 @@
       <pf-icons-burn></pf-icons-burn>
     </slot>
     <slot slot="brand">Branding</slot>
-    <slot>
-      <pf-button primary>Button 1</pf-button>
-      <pf-button primary>Button 2</pf-button>
-      <pf-button primary>Button 3</pf-button>
-      <pf-button primary>Button 4</pf-button>
-    </slot>
   </pf-masthead>
 
 </div>
@@ -430,12 +349,6 @@
                 <pf-icons-burn></pf-icons-burn>
               </slot>
               <slot slot="brand">Branding</slot>
-              <slot>
-                <pf-button primary>Button 1</pf-button>
-                <pf-button primary>Button 2</pf-button>
-                <pf-button primary>Button 3</pf-button>
-                <pf-button primary>Button 4</pf-button>
-              </slot>
             </pf-masthead>
           ```
         </td>
@@ -446,12 +359,6 @@
               <pf-icons-burn></pf-icons-burn>
             </slot>
             <slot slot="brand">Branding</slot>
-            <slot>
-              <pf-button primary>Button 1</pf-button>
-              <pf-button primary>Button 2</pf-button>
-              <pf-button primary>Button 3</pf-button>
-              <pf-button primary>Button 4</pf-button>
-            </slot>
           </pf-masthead>
         </td>
       </tr>
