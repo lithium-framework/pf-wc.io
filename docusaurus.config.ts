@@ -79,6 +79,10 @@ const config: Config = {
       href: '/css/sample-table.css',
       type: 'text/css',
     },
+    {
+      href: '/css/sample-page.css',
+      type: 'text/css',
+    },
   ],
 
   scripts: [
@@ -98,7 +102,7 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'My Site Logo',
-        src: 'https://pf4.patternfly.org/images/logo__pf--reverse-on-md.92c3cd3e0181da4c832c5dd4de8513d6.svg',
+        src: 'https://www.patternfly.org/images/ca43ebed.svg',
       },
       items: [
         {

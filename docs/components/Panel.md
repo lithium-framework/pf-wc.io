@@ -6,9 +6,13 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Basic
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel></pf-panel>
+  <pf-panel header>
+    <span slot = "header" >Header content</span>
+    <span>Main content</span>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -41,9 +45,13 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Header
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel header></pf-panel>
+  <pf-panel header>
+    <span slot = "header" >Header content</span>
+    <span>Main content</span>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -76,9 +84,13 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Footer
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel footer></pf-panel>
+  <pf-panel footer>
+    <span slot = "header" >Header content</span>
+    <span>Main content</span>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -111,9 +123,13 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### No body
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel no-body></pf-panel>
+  <pf-panel no-body>
+    <span slot = "header" >Header content</span>
+    <span>Main content</span>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -146,9 +162,13 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Raised
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel raised></pf-panel>
+  <pf-panel raised>
+    <span slot = "header" >Header content</span>
+    <span>Main content</span>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -181,9 +201,13 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Bordered
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel bordered></pf-panel>
+  <pf-panel bordered>
+    <span slot = "header" >Header content</span>
+    <span>Main content</span>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -216,9 +240,32 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Scrollable
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel scrollable></pf-panel>
+  <pf-panel scrollable header footer>
+    <span slot = "header" >Header content</span>
+    <div style = {{display : "grid"}} >
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+    </div>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
@@ -251,9 +298,32 @@ The **panel** component is a container that supports flexible content layouts. I
 
 ### Scrollable header and footer
 
-<div class="sample-bloc">
+<div class="sample-bloc full-width">
 
-  <pf-panel header footer scrollable></pf-panel>
+  <pf-panel header footer scrollable>
+    <span slot = "header" >Header content</span>
+    <div style = {{display : "grid"}} >
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+      <span>Main content</span>
+    </div>
+    <span slot = "footer" >Footer content</span>
+  </pf-panel>
 
 </div>
 
