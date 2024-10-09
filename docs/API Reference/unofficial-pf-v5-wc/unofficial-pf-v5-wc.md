@@ -15,7 +15,7 @@ Description
 </th></tr></thead>
 <tbody><tr><td>
 
-[PfActionList](./unofficial-pf-v5-wc.pfactionlist.md)
+[PfAccordeon](./pfaccordeon)
 
 
 </td><td>
@@ -24,7 +24,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfActionListGroup](./unofficial-pf-v5-wc.pfactionlistgroup.md)
+[PfActionList](./pfactionlist)
 
 
 </td><td>
@@ -33,7 +33,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfActionListItem](./unofficial-pf-v5-wc.pfactionlistitem.md)
+[PfActionListGroup](./pfactionlistgroup)
 
 
 </td><td>
@@ -42,7 +42,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfBadge](./unofficial-pf-v5-wc.pfbadge.md)
+[PfActionListItem](./pfactionlistitem)
 
 
 </td><td>
@@ -51,7 +51,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfButton](./unofficial-pf-v5-wc.pfbutton.md)
+[PfAlert](./pfalert)
 
 
 </td><td>
@@ -60,7 +60,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfCheckbox](./unofficial-pf-v5-wc.pfcheckbox.md)
+[PfBackToTop](./pfbacktotop)
 
 
 </td><td>
@@ -69,7 +69,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfMenu](./unofficial-pf-v5-wc.pfmenu.md)
+[PfBadge](./pfbadge)
 
 
 </td><td>
@@ -78,7 +78,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfMenuContent](./unofficial-pf-v5-wc.pfmenucontent.md)
+[PfButton](./pfbutton)
 
 
 </td><td>
@@ -87,7 +87,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfMenuItem](./unofficial-pf-v5-wc.pfmenuitem.md)
+[PfCheckbox](./pfcheckbox)
 
 
 </td><td>
@@ -96,7 +96,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfMenuList](./unofficial-pf-v5-wc.pfmenulist.md)
+[PfDrawer](./pfdrawer)
 
 
 </td><td>
@@ -105,7 +105,7 @@ Description
 </td></tr>
 <tr><td>
 
-[PfMenuToggle](./unofficial-pf-v5-wc.pfmenutoggle.md)
+[PfDropDown](./pfdropdown)
 
 
 </td><td>
@@ -114,7 +114,85 @@ Description
 </td></tr>
 <tr><td>
 
-[PfRadio](./unofficial-pf-v5-wc.pfradio.md)
+[PfDropDownMenu](./pfdropdownmenu)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[PfDropDownMenuItem](./pfdropdownmenuitem)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[PfMenuToggle](./pfmenutoggle)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[PfPanel](./pfpanel)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[PfRadio](./pfradio)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[PfWebComponent](./pfwebcomponent)
+
+
+</td><td>
+
+
+</td></tr>
+</tbody></table>
+
+## Functions
+
+<table><thead><tr><th>
+
+Function
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[cretateOnSlotChangeHandler(this, slotName, callback)](./cretateonslotchangehandler)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[HandleBooleanAttribute(this, name, newValue)](./handlebooleanattribute)
 
 
 </td><td>
@@ -138,7 +216,16 @@ Description
 </th></tr></thead>
 <tbody><tr><td>
 
-[BaseStyle](./unofficial-pf-v5-wc.basestyle.md)
+[BaseStyle](./basestyle)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[drawerTemplate](./drawertemplate)
 
 
 </td><td>

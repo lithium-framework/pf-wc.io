@@ -1,5 +1,7 @@
 # Alert
 
+An **alert** is a notification that provides brief information to the user without blocking their workflow.
+
 ## Examples
 
 ### Basic (Alert examples on Patternfly)
