@@ -29,3 +29,11 @@
 | `error` | Partie dédiée à la gestion des erreurs ou des messages d'avertissement. | `<div part="error"></div>` dans des formulaires, alertes ou validations. |
 | `alert` | Partie visuelle dédiée à l'affichage d'une notification ou d'une alerte. | `<div part="alert"></div>` dans des boîtes de dialogue, notifications. |
 | `toggle` | Élément interactif permettant d'activer ou désactiver un état (comme un interrupteur ou un bouton). | `<button part="toggle"></button>` dans des composants à bascule (switches, checkboxes). |
+| `badge` | Élément visuel compact utilisé pour afficher une petite information, souvent un compteur ou une indication d'état. | `<span part="badge"></span>` pour des notifications, des statuts, ou des indicateurs numériques dans des listes, cartes, ou boutons. |
+| `text` | Partie contenant du texte simple, sans sémantique particulière, souvent utilisée pour de petites portions de texte. | `<span part="text"></span>` pour des labels, petites descriptions. |
+| `body` | Section principale du contenu dans un composant complexe (équivalent à la section centrale). | `<div part="body"></div>` dans une modale, carte ou un panneau d'informations. |
+| `main` | Partie centrale ou principale du contenu, généralement plus large que content, contient l'information la plus importante. | `<main part="main"></main>` dans des layouts complexes ou pages. |
+| `text` | Partie contenant du texte simple, sans sémantique particulière, souvent utilisée pour de petites portions de texte. | `<span part="text"></span>` pour des labels, petites descriptions. |
+| `body` | Section principale du contenu dans un composant complexe (équivalent à la section centrale). | `<div part="body"></div>` dans une modale, carte ou un panneau d'informations. |
+| `main` | Partie centrale ou principale du contenu, généralement plus large que content, contient l'information la plus importante. | `<main part="main"></main>` dans des layouts complexes ou pages. |
+| `panel` | Conteneur pour une section distincte d'un composant, souvent utilisé pour séparer différents blocs d'information ou d'interaction. | `<div part="panel"></div>` dans des panneaux latéraux, sections de tableau de bord ou des layouts. |
