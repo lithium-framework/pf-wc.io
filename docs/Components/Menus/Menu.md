@@ -2,6 +2,23 @@
 
 A **menu** is a list of options or actions that users can choose from. It can be used in a variety of contexts whenever the user needs to choose between multiple values, options, or actions. A menu is most often paired with a [menu toggle]( ./Toggle ) as its trigger, but can also be used inline or can be attached to other interactable elements to toggle it open and close.
 
+## Integration
+
+```html live
+  <pf-menu>
+    <pf-menu-content>
+      <pf-menu-list>
+        <pf-menu-item>Action</pf-menu-item>
+        <pf-menu-item link>Link</pf-menu-item>
+        <pf-menu-item disabled>Disabled Action</pf-menu-item>
+        <pf-menu-item link disabled>Disabled Link</pf-menu-item>
+        <pf-menu-item area-disabled>Aria-Disabled Action</pf-menu-item>
+        <pf-menu-item link area-disabled>Aria-Disabled Link</pf-menu-item>
+      </pf-menu-list>
+    </pf-menu-content>
+  </pf-menu>
+```
+
 ### Basic menus
 
 <div class = "sample-bloc full-width" >
