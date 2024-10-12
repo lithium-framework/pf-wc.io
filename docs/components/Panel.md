@@ -8,7 +8,7 @@ The **panel** component is a container that supports flexible content layouts. I
 
 <div class="sample-bloc full-width">
 
-  <pf-panel header>
+  <pf-panel>
     <span slot = "header" >Header content</span>
     <span>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium est a porttitvehicula. Quisque vel commodo urna. Morbi mattis rutrum ante, id vehiculex accumsan ut. Morviverra, eros vel porttitor facilisis, eros purus aliquet erat, nec lobortis felis elit pulvinsem. Vivamus vulputate, risus eget commodeleifend, eros nibh porta quam, vitae lacinia leo libeat magna. Maecenas aliquam sagittis orci, et posuere nisi ultrices sit amet. Aliquam ex odimalesuada seposuere quis, pellentesque at mauris. Phasellus venenatis massa ex, eget pulvinlibero auctor pretium. Aliquam erat volutpat. Duis euismod justo in quaullamcorper, in commomassa vulputate.
