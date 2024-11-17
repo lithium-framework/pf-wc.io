@@ -1,1 +1,4 @@
-.sample-page{border:1px solid #ececec;height:500px}
+.sample-page{
+  height: 500px;
+  border: 1px solid #ececec;
+}

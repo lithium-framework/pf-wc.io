@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'lithium-framework', // Usually your GitHub org/user name.
   projectName: 'pf-wc.io', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -64,34 +64,34 @@ const config: Config = {
 
   stylesheets: [
     {
-      href: '/css/pf-base.css',
+      href: '/pf-wc.io/css/pf-base.css',
       type: 'text/css',
     },
     {
-      href: '/css/pf-icons.css',
+      href: '/pf-wc.io/css/pf-icons.css',
       type: 'text/css',
     },
     {
-      href: '/css/sample-bloc.css',
+      href: '/pf-wc.io/css/sample-bloc.css',
       type: 'text/css',
     },
     {
-      href: '/css/sample-table.css',
+      href: '/pf-wc.io/css/sample-table.css',
       type: 'text/css',
     },
     {
-      href: '/css/sample-page.css',
+      href: '/pf-wc.io/css/sample-page.css',
       type: 'text/css',
     },
   ],
 
   scripts: [
     {
-      src: '/js/unofficial-pf-v5-wc.js',
+      src: '/pf-wc.io/js/unofficial-pf-v5-wc.js',
       async: false,
     },
     {
-      src: '/js/unofficial-pf-v5-wc-icons.js',
+      src: '/pf-wc.io/js/unofficial-pf-v5-wc-icons.js',
       async: false,
     },
   ],

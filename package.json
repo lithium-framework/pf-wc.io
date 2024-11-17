@@ -17,9 +17,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
-    "@docusaurus/theme-live-codeblock": "^3.5.2",
+    "@docusaurus/core": "^3.6.1",
+    "@docusaurus/preset-classic": "3.6.1",
+    "@docusaurus/theme-live-codeblock": "^3.6.1",
+    "@lithium-framework/core": "^1.8.5-1",
     "@mdx-js/react": "^3.0.0",
     "@patternfly/react-core": "^5.4.0",
     "clsx": "^2.0.0",
@@ -30,9 +31,9 @@
     "unofficial-pf-v5-wc-icons": "^1.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/tsconfig": "3.5.2",
-    "@docusaurus/types": "3.5.2",
+    "@docusaurus/module-type-aliases": "3.6.1",
+    "@docusaurus/tsconfig": "3.6.1",
+    "@docusaurus/types": "3.6.1",
     "gulp": "^5.0.0",
     "gulp-if": "^3.0.0",
     "gulp-rename": "^2.0.0",
