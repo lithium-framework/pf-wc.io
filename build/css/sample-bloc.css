@@ -1,0 +1,1 @@
+.sample-bloc{border:1px solid #ececec;display:flex;flex:1;gap:8px;margin:10px 0!important;max-height:350px;padding:20px}.sample-bloc,.sample-bloc.row{flex-direction:row}.sample-bloc.column{flex-direction:column}.sample-bloc.no-border{border:none}.sample-bloc.full-width>*{flex:1}

@@ -26,8 +26,8 @@
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "unofficial-pf-v5-wc": "file:../unofficial-pf-v5-wc",
-    "unofficial-pf-v5-wc-icons": "file:../unofficial-pf-v5-wc-icons"
+    "unofficial-pf-v5-wc": "^1.0.0",
+    "unofficial-pf-v5-wc-icons": "^1.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",

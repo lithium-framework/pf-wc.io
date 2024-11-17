@@ -26,7 +26,7 @@ A **dropdown** presents a menu of actions or links in a constrained space that w
 
 <div class = "sample-bloc" >
 
-  <pf-dropdown plain>
+  <pf-dropdown no-text plain>
     <pf-dropdown-menu-item>Action</pf-dropdown-menu-item>
     <pf-dropdown-menu-item link>Link</pf-dropdown-menu-item>
     <pf-divider></pf-divider>
